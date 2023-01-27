@@ -1,8 +1,8 @@
 # Monorepos with Turborepo and NPM Workspaces
 
-## Lessons
+Original course [link](https://egghead.io/courses/migrate-a-monorepo-from-npm-workspaces-to-turborepo-79d6b32d)
 
-### Installing Turborepo in an existing project
+## Installing Turborepo in an existing project
 
 1. We need to install Turborepo in our project by running `npm install turbo -D` to install it in the root of our project as a `devDependency`.
 2. Then, we need to update `.gitignore` to prevent `git` to include certain folders in version control. In this case, we're going to ignore `.turbo` and the output folders for all the applications in the monorepo, `dist/**` and `.next/**`
