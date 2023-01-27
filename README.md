@@ -200,3 +200,9 @@ Let's run `npx turbo run test`, delete the turbo cache directory `rm -rf node_mo
 You can even take a look at your usage in this tab in your Vercel dashboard. https://vercel.com/dashboard/usage
 
 Another way to test that remote caching is working is to use the `--remote-only` flag to ignore the local cache.
+
+### Published Apps
+
+- [Blog - nextjs](https://turborepo-blog-eight.vercel.app/)
+
+- [Dashboard - vite](https://turborepo-dashboard-vite.vercel.app/)
